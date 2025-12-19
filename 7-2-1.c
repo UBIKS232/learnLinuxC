@@ -101,6 +101,8 @@ void printZ(complexRA_t z)
 
 int main()
 {
+    printf("V1\n");
+
     complexRA_t z1, z2, z3;
     z1 = initRA(2, 1.047);
     z2 = initXY(0.866, 0.5);
