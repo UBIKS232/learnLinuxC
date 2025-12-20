@@ -21,7 +21,7 @@ int partition(int start, int end)
     int pivot = a[start];
     int i, j, t, mid = start;
     int k = 0; // DEBUG();
-    for (i = start + 1; i < LEN; i++)
+    for (i = start + 1; i < end + 1; i++)
     {
         if (a[i] < pivot)
         {
@@ -39,7 +39,6 @@ int partition(int start, int end)
         }
         else
         {
-
             printf("\n\ta[i]>pivot: %d\n", i);
         }
     }
