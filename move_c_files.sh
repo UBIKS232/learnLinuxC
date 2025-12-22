@@ -1,5 +1,6 @@
 #!bin/bash
 
+# !!AIGC
 # 遍历当前目录下所有 .c 文件
 for file in *.c; do
     # 跳过无匹配的情况（当没有 .c 文件时）
